@@ -9,7 +9,7 @@ import './toolbox/theme.css';
 import theme from './toolbox/theme';
 import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
 
-import Logon from './containers/Logon';
+import Logon from './components/logon/Logon';
 
 class App extends Component {
 

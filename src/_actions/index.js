@@ -5,3 +5,9 @@ export const logon = ( username, password ) => {
         password
     }
 }
+
+export const dispatchLogin = (dispatch) => { 
+    return { 
+        handleLogin: (username, password) => dispatch(logon(username, password)) 
+    } 
+} 
